@@ -1,0 +1,15 @@
+[package]
+name = "matrix-irc-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+matrix-sdk = "0.7"
+matrix-sdk-base = "0.7"
+irc = "0.15"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+log = "0.4"
+env_logger = "0.10"
+dotenv = "0.15"
+url = "2"
